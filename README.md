@@ -9,6 +9,10 @@ This project demonstrates a carousel implementation with:
 - Scale effects on card transitions
 - Page indicators
 
+## Video
+https://github.com/user-attachments/assets/9c9069d5-7b90-434b-b6cf-f2b2db15e008
+
+
 ## Architecture
 
 The project follows **MVVM (Model-View-ViewModel)** architecture pattern with a modular, feature-based folder structure.
