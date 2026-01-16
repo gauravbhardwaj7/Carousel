@@ -10,8 +10,7 @@ This project demonstrates a carousel implementation with:
 - Page indicators
 
 ## Video
-https://github.com/user-attachments/assets/9c9069d5-7b90-434b-b6cf-f2b2db15e008
-
+https://github.com/user-attachments/assets/ad7ae791-7b43-410f-8dc7-2c25aebe0268
 
 ## Architecture
 
