@@ -1,6 +1,6 @@
 # Carousel Implementation
 
-SwiftUI Implementation Of Carousel 
+A SwiftUI application featuring an interactive carousel component with smooth animations.
 
 ## Overview
 
@@ -8,34 +8,26 @@ This project demonstrates a carousel implementation with:
 - Interactive card carousel with scroll animations
 - Scale effects on card transitions
 - Page indicators
-
-## Video
-https://github.com/user-attachments/assets/ad7ae791-7b43-410f-8dc7-2c25aebe0268
+- User interface components for authentication
 
 ## Architecture
 
-The project follows **MVVM (Model-View-ViewModel)** architecture pattern with a modular, feature-based folder structure.
-
-
-### Architecture Components
+The project follows a modular structure:
 
 ```
 CarouselImplementation/
-├── Carousel/              # Carousel feature module
-│   ├── Model/             # Data models
-│   └── ViewModel/         # Business logic & state
-├── Header/                # Header UI components
-├── Footer/                # Form & input components
-├── Utils/                 # Shared utilities & design system
-└── EntryPoint/            # App initialization
+├── Carousel/              # Carousel components
+├── Header/                # App header
+├── Footer/                # Form components
+├── Utils/                 # Shared utilities
+└── EntryPoint/           # App entry point
 ```
 
-### Key Architectural Decisions
+## Features
 
-- **ViewModels**: Encapsulate state and business logic, making views testable and reusable
-- **Design System**: Centralized colors and spacing via extensions for consistency
-- **Component-Based**: Reusable, composable SwiftUI views
-- **Lifecycle Management**: Proper observer setup/cleanup for memory efficiency
+- **Carousel**: Horizontal scrolling cards with scale animations
+- **Cards**: Display images with country information
+- **UI Components**: Phone input, login options, and form elements
 
 ## Setup
 
@@ -51,3 +43,19 @@ CarouselImplementation/
 
 No external dependencies required.
 
+## Project Structure
+
+- **CarouselView**: Main carousel container with scroll management
+- **CardView**: Individual card component
+- **ViewModel**: Manages carousel state and data
+- **UI Extensions**: Design system (colors, spacing)
+
+## Notes
+
+- Uses native SwiftUI frameworks
+- MVVM architecture pattern
+- Supports light and dark mode
+
+---
+
+**Created by**: Gaurav Bhardwaj
